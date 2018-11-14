@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+<meta charset="utf-8">
+<title>なんでもいい屋</title>
+</head>
+<body>
+<div id="header"><h1 align="center">抽選結果はこちら！！</h1>
+</div>
+<div id="result">
+        <script type="text/javascript">
+            rand = Math.floor(Math.random()*5);
+            
+                                  
+            if (rand == 0) msg = "千葉工業大学学生食堂";
+            if (rand == 1) msg = "日高屋";
+            if (rand == 2) msg = "サイゼリヤ";
+            if (rand == 3) msg = "Jonathan's";
+            if (rand == 4) msg = "牛角";
+                                    
+            document.write(msg);
+
+            
+            </script></div>
+            <div>
+                <br>このお店に行ってみましょう！！<br>
+                （もしも結果が気に入らなければリロードで別の店舗が表示されるかもしれません・・・。）
+            </div>
+            <div>
+                    <a href="index.html">TOPページへもどる</a>
+
+            </div>
+</body>
+</html>

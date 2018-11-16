@@ -95,14 +95,33 @@ button.button8:hover {
 }
 
 div#result {
+    font-weight: bold;
     color: red;
     font-size:500%;
     border: 0px solid #aaa;
     width: 100%;
-    text-align: center;}
+    text-align: center;
+    -webkit-text-stroke: 3.5px yellow;}
 div#lunch{
     width: 10%;/*幅*/
     float:right;
     display: flex;
     justify-content: space-between;
+}
+
+div#idea{
+font-weight: bold;
+text-align: center;
+font-size:200%;
+
+}
+
+
+
+body {
+  background-image: url("norenn.jpg");
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment: fixed;
 }
